@@ -1,2 +1,4 @@
+AM_CPPFLAGS = -I$(srcdir)/../lib
 bin_PROGRAMS = caesium
-libcaesium_SOURCES = main.c
+caesium_SOURCES = main.c
+caesium_LDADD = ../lib/libcaesium.la

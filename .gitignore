@@ -37,3 +37,9 @@
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
+
+#Build dir
+build
+
+#Autoconf files
+autom4te.cache
